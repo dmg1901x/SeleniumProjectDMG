@@ -9,7 +9,15 @@ public class Metrics {
     private static String testItem1;
     private static String testItem2;
     private static String testItem3;
+    private static String testItem3Count;
 
+    public static String getTestItem3Count() {
+        return testItem3Count;
+    }
+
+    public static void setTestItem3Count(String testItem3Count) {
+        Metrics.testItem3Count = testItem3Count;
+    }
 
     public static String getTestItem1() {
         return testItem1;

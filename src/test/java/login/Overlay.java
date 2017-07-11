@@ -39,6 +39,10 @@ public class Overlay extends LandingPage {
                     if (overlaydesc.equals(Metrics.getTestItem2())) {
                         return true;
                     }
+                case 3 :
+                    if (overlaydesc.equals(Metrics.getTestItem3())) {
+                        return true;
+                    }
                 break;
             }
 

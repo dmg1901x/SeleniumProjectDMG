@@ -3,10 +3,13 @@ package login;
 import org.openqa.selenium.By;
 import utils.SeleniumUtils;
 
+import static login.VerifyLogin.item;
+
 
 /**
  * Created by RXC8414 on 5/11/2017.
  */
+//public class MainPage extends SeleniumUtils {
 public class MainPage extends SeleniumUtils {
 
 
